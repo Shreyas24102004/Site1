@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <title>92Design</title>
+    <script src="form.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="logo-div head-logo"> <img class="logo" src="images/Capture.PNG" align="center"></div>
+            <div class="logo-div dropdownbox menu">
+                <a href="form.html" class="dropbtn">Home</a>
+                    <div class="dropdown-content">
+                    <a href="form.html">Service</a>
+                    <a href="form.html">Portfolio</a>
+                    <a href="form.html">About Us</a>
+                    <a href="form.html">Blog</a>
+                    <a href="form.html">Contact Us</a>
+                    </div>
+            </div>
+            <div class="logo-div btn">
+                <button class="button back" type="reset"><a href="form.html">Go Back</a></button>   
+            </div> 
+        </nav>
+    </header>
+    <center>
+        <div class="heading">
+            <h2>Request A Quote</h2>
+            <div class="hr-div"><hr width="90px" class="hr left"><hr class="hr right" width="20px"></div>
+            <p class="head-p">Let's Talk To Discover Possiblities</p>
+        </div>
+    </center>
+        <form>
+            <script>
+                var input = document.querySelector("#phone");
+                window.intlTelInput(input, {
+                  initialCountry: "auto",
+                  preferredCountries: ["us", "gb", "ca"],
+                  separateDialCode: true,
+                  formatOnDisplay: true,
+                  utilsScript:
+                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+                });
+              </script>
+              
+
+            <label for="name" class="label-name">Name</label><br>
+            <input type="text"class="w-50 mar comman" id="FirstName" placeholder="First Name">
+            <input type="text"class="w-50 mar comman" id="LastName" placeholder="Last Name"><br>
+
+
+
+            <label for="email"  class="label-email">Email</label><br>
+            <input type="email" id="email"  class="input-email input-comman mar comman" placeholder="Your Email Address"><br>
+
+
+
+            <label for="Mobile Phone" class="label-phone">Mobile Phone</label><br>
+            <input class="input-phone input-comman mar comman" placeholder="" type="tel" id="phone" name="phone"><br>
+
+
+
+
+            <label for="service" class="label-service" >Select a Service</label><br>
+            <select id="Service" class="input-service dropdown mar comman">
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+            </select><br>
+
+
+
+            <div class="budget" >
+                <label for="budget"class="label-ibudget">Budget</label><br>
+                <select id="budget" class="input-ibudget dropdown-2 mar comman">
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                </select><br>
+            </div>
+
+
+
+
+            <div class="start" >
+                <label for="start" class="label-istart">How soon you want to start?</label><br>
+                <select id="Start" class="input-istart dropdown-2 mar comman">
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                    <option value="Select">Select</option>
+                </select><br>
+            </div>
+
+
+
+
+            <label for="req"class="label-req">Requirement</label><br>
+            <select id="req" class="input-req dropdown mar comman">
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+                <option value="Select">Select</option>
+            </select><br>
+
+
+
+
+            <label for="Brief-about"  class="label-about">Brief about the project</label><br>
+            <textarea id="about" cols="95" class="input-textarea mar comman" rows="5"></textarea><br>
+
+
+
+            <label for="" >Have a file to share?</label><br>
+            <label for="file-upload"class="custom-file-upload file-mar ">
+             Select Or Drop Your File
+            </label>
+            <input id="file-upload" class="comman" type="file"/><br>
+            <label for="" class="label message" >Only Document,Images or ZIP File. Max size 8MB</label><br><br><br>
+
+
+
+            <button class="button down" onclick="store()" type="submit" >Get Started</button>
+        </form>
+        <br>
+        <br>
+        <br>
+
+        <footer>
+            <div class="main-footer">
+                <div class="f1-div">
+                    <img src="images/92logo.PNG" class="logo">
+                    <p class="f4-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, et dolores tempora itaque soluta exercitationem ducimus ut eius?</p>
+                    <h3>FOLLOW US</h3>
+
+                    <!-- Add font awesome icons -->
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="" class="fa fa-instagram"></a>
+                    <a href="" class="fa fa-skype"></a>
+                </div>
+                <div class="f1-div f1">
+                    <h3>Explore</h3>
+                    <p class="f4-p">Home</p>
+                    <p class="f4-p">Service</p>
+                    <p class="f4-p">About Us</p>
+                    <p class="f4-p">Testimonials</p>
+                    <p class="f4-p Blog">Blog</p><br><br><br>
+                </div>
+                <div class="f1-div f1">
+                    <h3>Usefull Links</h3>
+                    <p class="f4-p">Working Method</p>
+                    <p class="f4-p">Privacy Policy</p>
+                    <p class="f4-p">Terms & Conditions</p>
+                    <p class="f4-p">FAQ</p>
+                    <p class="f4-p">Contact Us</p><br><br><br>
+                </div>
+                <div class="f1-div">
+                    <h3>Get In Touch</h3>
+                    <h5>Address: </h5>
+                    <p class="f4-p">US Freedom Capital,'Dallas',The Address 22nd floor,West Gate,B-Block Nr.YMCA Club,Sarkhej-Gandhinagar Hwy,Ahmedabad,Gujarat<br>380015.</p>
+                    <h5>Phone Number:</h5>
+                    <p class="f4-p">+91 1234567890</p>
+                    <p class="f4-p">+91 1234567890</p>
+                </div>
+            </div><br><br>
+            <hr color="gray"><br>
+            <p class="copyright">Copyright 2023 &#169; 92Design. All Rights Reserverd.</p>
+            <br>
+        </footer>
+</body>
+</html>

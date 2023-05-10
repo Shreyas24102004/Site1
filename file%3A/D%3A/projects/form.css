@@ -1,0 +1,757 @@
+/* For laptop and large computers and tablet portrait mod */
+@media (min-width: 1024px){
+    body{
+        background-color: #111112;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .head-logo{
+        width: 25%;
+    }
+    .btn{
+       width:  25%;
+    }
+    .menu{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    header{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    a{
+        margin:2%;
+        color: white;
+        text-decoration: none;;
+        font-size: 15px;
+    }
+    .dropdown-content{
+        display: inline-block;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .button{
+        background-color: #111112;
+        width: 115px;
+        color: white;
+        border: 1px solid darkgray;
+        height: 40px;
+    }
+    .back{
+        margin-left: 70%;
+    }
+    .down{
+        background-color: white;
+        color: black;
+    }
+    .logo-div{
+        display: inline-flex;
+        /* width: calc(36% - 28px); */
+    }
+    .heading{
+        color: white;
+    }
+    .hr-div{
+        max-width: 125px;
+        margin: 0 auto;
+    }
+    .hr{
+        display: inline-block;
+    }
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+       
+    }
+    .head-p{
+        font-size: 13px;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid darkgray;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: calc(100% - 40px);
+    }
+    input{
+        background-color: #111112;
+        border: 1px solid darkgray;
+        height: 30px;
+        color: white;
+    }
+    .w-50{
+        width: calc(50% - 15px);
+        height: 30px;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+    }
+    .input-comman{
+        width: calc(100% - 20px);
+    }
+    .dropdown{
+        width: calc(100% - 15px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .budget{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .start{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .dropdown-2{
+        width: calc(100% - 00px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .input-istart{
+        width: 102%;
+    }
+    .input-textarea{
+        width: calc(100% - 20px);
+        background-color: #111112;
+        color: white;
+        border: 1px solid darkgray;
+    }
+    .message{
+        font-size: x-small;
+    }
+    .file-mar{
+        margin-top: 10px;
+    }
+    .mar{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+    }
+    .main-footer{
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    .f1-div{
+        width: calc(25% - 4px);
+        display: inline-block;
+    }
+    .f4-p{
+        font-size: 15px;
+        color: gray;
+    }
+    .copyright{
+        font-size: 15px;
+        color: darkgray;
+        text-align: center;
+    }
+    .button:hover{
+        background-color: gray;
+        cursor:grab;
+    }
+}
+
+/* for tablet */
+@media (min-width: 912px) and (max-width: 1024px){
+    body{
+        background-color: #111112;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    header{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .dropdown-content{
+        display: inline-block;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .head-logo{
+        width: 25%;
+    }
+    .btn{
+       width:  25%;
+    }
+    .menu{
+        width: 50%;
+    }
+    a{
+        margin:2%;
+        color: white;
+        text-decoration: none;;
+        font-size: 15px;
+    }
+    .button{
+        background-color: #111112;
+        width: 115px;
+        color: white;
+        border: 1px solid darkgray;
+        height: 40px;
+    }
+    .back{
+        margin-left: 70%;
+    }
+    .down{
+        background-color: white;
+        color: black;
+    }
+    .logo-div{
+        display: inline-flex;
+        /* width: calc(35% - 28px); */
+    }
+    .heading{
+        color: white;
+    }
+    .hr-div{
+        max-width: 125px;
+        margin: 0 auto;
+    }
+    .hr{
+        display: inline-block;
+    }
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+       
+    }
+    .head-p{
+        font-size: 13px;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid darkgray;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: calc(100% - 40px);
+    }
+    input{
+        background-color: #111112;
+        border: 1px solid darkgray;
+        height: 30px;
+        color: white;
+    }
+    .w-50{
+        width: calc(50% - 15px);
+        height: 30px;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+    }
+    .input-comman{
+        width: calc(100% - 20px);
+    }
+    .dropdown{
+        width: calc(100% - 15px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .budget{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .start{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .dropdown-2{
+        width: calc(100% - 00px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .input-istart{
+        width: 102%;
+    }
+    .input-textarea{
+        width: calc(100% - 20px);
+        background-color: #111112;
+        color: white;
+        border: 1px solid darkgray;
+    }
+    .message{
+        font-size: x-small;
+    }
+    .file-mar{
+        margin-top: 10px;
+    }
+    .mar{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+    }
+    .main-footer{
+        max-width: 830px;
+        margin: 0 auto;
+    }
+    .f1-div{
+        width: calc(25% - 4px);
+        display: inline-block;
+    }
+    .f4-p{
+        font-size: 15px;
+        color: gray;
+    }
+    .copyright{
+        font-size: 15px;
+        color: darkgray;
+        text-align: center;
+    }
+    .button:hover{
+        background-color: gray;
+        cursor:grab;
+    }
+}
+@media (min-width: 767px) and (max-width: 912px){
+    body{
+        background-color: #111112;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    header{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    a{
+        color: white;
+        text-decoration: none;;
+        font-size: 15px;
+    }
+    .button{
+        background-color: #111112;
+        width: 115px;
+        color: white;
+        border: 1px solid darkgray;
+        height: 40px;
+    }
+    .back{
+        margin-left: 70%;
+    }
+    .down{
+        background-color: white;
+        color: black;
+    }
+    .logo-div{
+        display: inline-flex;
+        width: calc(35% - 28px);
+    }
+    .heading{
+        color: white;
+    }
+    .hr-div{
+        max-width: 125px;
+        margin: 0 auto;
+    }
+    .hr{
+        display: inline-block;
+    }
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+       
+    }
+    .head-p{
+        font-size: 13px;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid darkgray;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: calc(100% - 40px);
+    }
+    input{
+        background-color: #111112;
+        border: 1px solid darkgray;
+        height: 30px;
+        color: white;
+    }
+    .w-50{
+        width: calc(50% - 15px);
+        height: 30px;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+    }
+    .input-comman{
+        width: calc(100% - 20px);
+    }
+    .dropdown{
+        width: calc(100% - 15px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .budget{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .start{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .dropdown-2{
+        width: calc(100% - 00px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .input-istart{
+        width: 102%;
+    }
+    .input-textarea{
+        width: calc(100% - 20px);
+        background-color: #111112;
+        color: white;
+        border: 1px solid darkgray;
+    }
+    .message{
+        font-size: x-small;
+    }
+    .file-mar{
+        margin-top: 10px;
+    }
+    .mar{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+    }
+    .main-footer{
+        max-width: 830px;
+        margin: 0 auto;
+    }
+    .f1-div{
+        width: calc(22% - 4px);
+        display: inline-block;
+    }
+    .f4-p{
+        font-size: 15px;
+        color: gray;
+    }
+    .copyright{
+        font-size: 15px;
+        color: darkgray;
+        text-align: center;
+    }
+    .button:hover{
+        background-color: gray;
+        cursor:grab;
+    }
+    .dropbtn {
+        color: white;
+        padding-left: 15%;
+        font-size: 16px;
+        border: none;
+        cursor: grab;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownbox {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      /* Show the dropdown menu on hover */
+      .dropdownbox:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdownbox:hover .dropbtn {
+        background-color: gray;
+      }
+}
+@media (max-width: 767px){
+    body{
+        background-color: #111112;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    header{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    a{
+        color: white;
+        text-decoration: none;;
+        font-size: 12px;
+    }
+    .button{
+        background-color: #111112;
+        width: 115px;
+        color: white;
+        border: 1px solid darkgray;
+        height: 40px;
+    }
+    .back{
+        margin-left: 70%;
+        width: 210px;
+    }
+    .down{
+        background-color: white;
+        color: black;
+    }
+    .logo-div{
+        display: inline-flex;
+        width: calc(64% - 28px);
+    }
+    .heading{
+        color: white;
+    }
+    .hr-div{
+        max-width: 125px;
+        margin: 0 auto;
+    }
+    .hr{
+        display: inline-block;
+    }
+    .left{
+        float: left;
+       
+    }
+    .right{
+        float: right;
+       
+    }
+    .head-p{
+        font-size: 13px;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid darkgray;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        width: calc(100% - 40px);
+    }
+    input{
+        background-color: #111112;
+        border: 1px solid darkgray;
+        height: 30px;
+        color: white;
+    }
+    .w-50{
+        width: calc(50% - 15px);
+        height: 30px;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 900px;
+    }
+    .input-comman{
+        width: calc(100% - 20px);
+    }
+    .dropdown{
+        width: calc(100% - 15px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .budget{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .start{
+        display: inline-block;
+        width: calc(50% - 15px);
+    }
+    .dropdown-2{
+        width: calc(100% - 00px);
+        height: 30px;
+        background-color: #111112;
+        border: 1px solid darkgray;
+        color: white;
+    }
+    .input-istart{
+        width: 102%;
+    }
+    .input-textarea{
+        width: calc(100% - 20px);
+        background-color: #111112;
+        color: white;
+        border: 1px solid darkgray;
+    }
+    .message{
+        font-size: x-small;
+    }
+    .file-mar{
+        margin-top: 10px;
+    }
+    .mar{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+    }
+    .main-footer{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .f1-div{
+        width: calc(50% - 3px);
+        display: inline-block;
+    }
+    .f4-p{
+        font-size: 15px;
+        color: gray;
+    }
+    .copyright{
+        font-size: 15px;
+        color: darkgray;
+        text-align: center;
+    }
+    .button:hover{
+        background-color: gray;
+        cursor:grab;
+    }
+    .dropbtn {
+        color: white;
+        padding-left: 15%;
+        font-size: 16px;
+        border: none;
+        cursor: grab;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownbox {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      /* Show the dropdown menu on hover */
+      .dropdownbox:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdownbox:hover .dropbtn {
+        background-color: gray;
+      }
+}
