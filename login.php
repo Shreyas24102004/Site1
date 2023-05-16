@@ -59,8 +59,6 @@ mysqli_close($conn);
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.4.4, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="logincss.css">
-    
-    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
