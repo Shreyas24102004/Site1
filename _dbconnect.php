@@ -2,7 +2,7 @@
 $server = "localhost";
 $Username = "root";
 $password = "";
-$database = "ocrs";
+$database = "garagedb";
 
 try {
     $conn = new mysqli($server, $Username, $password, $database);

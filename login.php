@@ -20,24 +20,15 @@ if (isset($_POST['submit'])) {
     if (mysqli_num_rows($result) == 1) {
         // The login was successful
         $login = true;
-        echo ' <div class="alert alert-success alert-dismissible fade show" role="alert">
-          <strong>Success!</strong> You are logged in
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-          </button>
-      </div> ';
         session_start();
         $_SESSION['loggedin'] = true;
         $_SESSION['User_Name'] = $username;
         header("location: Home.php");
     } else {
         // The login failed
-        echo ' <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        <strong>Error!</strong> Password and username are incorrect.
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div> ';
+        echo "<script>
+          alert('Email or password is incorrect');
+        </script>";
     }
 }
 
@@ -45,6 +36,7 @@ if (isset($_POST['submit'])) {
 mysqli_close($conn);
 
 ?>
+
 
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en"><head>

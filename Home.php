@@ -1,3 +1,30 @@
+<?php
+ 
+// Starting the session, to use and
+// store data in session variable
+session_start();
+  
+// If the session variable is empty, this
+// means the user is yet to login
+// User will be sent to 'login.php' page
+// to allow the user to login
+if (!isset($_SESSION['User_Name'])) {
+    $_SESSION['msg'] = "You have to log in first";
+    header('location:  login.php');
+}
+  
+// Logout button will destroy the session, and
+// will unset the session variables
+// User will be headed to 'login.php'
+// after logging out
+if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['User_Name']);
+    header("location: login.php");
+}
+?>
+
+
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +41,7 @@
     <link id="u-page-google-font" rel="stylesheet" href="css1.css">
     
     
-    
+
     
     <!-- <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -60,7 +87,16 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-        <a href="login.php" class="u-border-2 u-border-palette-1-light-1 u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-50 u-text-palette-1-light-1 u-white u-btn-1">Login</a>
+       <div style="margin-left: 78%;margin-top: -3%;">
+       <p style="display: inline; color:black;" id = "username_show"><strong>
+                    <?php echo $_SESSION['User_Name']; ?>
+                </strong></p>
+                <?php if( $_SESSION['User_Name']): ?>
+                    <a href="logout.php" style="display: inline;" name = "logout" class="u-border-2 u-border-palette-1-light-1 u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-50 u-text-palette-1-light-1 u-white u-btn-1">Logout</a>
+                <?php else: ?>
+                    <a href="login.php" style="display: inline;" class="u-border-2 u-border-palette-1-light-1 u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-50 u-text-palette-1-light-1 u-white u-btn-1">Login</a>
+                <?php endif; ?>
+       </div>
       </div></header>
     <section class="u-clearfix u-grey-15 u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-section-1" id="carousel_caf0">
       <div class="u-expanded-width u-gradient u-hover-feature u-shape u-shape-rectangle u-shape-1" data-animation-name="" data-animation-duration="0" data-animation-direction=""></div>
