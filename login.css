@@ -1,5 +1,7 @@
  .u-section-1 {
   background-image: url("images/20502461-0.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .u-section-1 .u-sheet-1 {
