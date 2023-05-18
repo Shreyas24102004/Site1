@@ -2,7 +2,6 @@
 
 include '_dbconnect.php';
 
-
 // Check if the form was submitted
 if (isset($_POST['submit'])) {
 
@@ -19,10 +18,16 @@ if (isset($_POST['submit'])) {
     $result = mysqli_stmt_get_result($stmt);
     if (mysqli_num_rows($result) == 1) {
         // The login was successful
+        $row = mysqli_fetch_assoc($result);
         $login = true;
         session_start();
         $_SESSION['loggedin'] = true;
         $_SESSION['User_Name'] = $username;
+        $_SESSION['User_Contact'] = $row['User_Contact'];
+
+        // // Print the value of $_SESSION['User_Contact'] to the console
+        // var_dump($_SESSION['User_Contact']);
+
         header("location: Home.php");
     } else {
         // The login failed
@@ -36,6 +41,7 @@ if (isset($_POST['submit'])) {
 mysqli_close($conn);
 
 ?>
+
 
 
 <!DOCTYPE html>

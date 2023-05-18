@@ -24614,8 +24614,8 @@ h6 {
 .u-button-style.u-active-none:active,
 .u-button-style.u-active-none.active,
 li.active > .u-button-style.u-active-none {
-  color: inherit !important;
-  background-color: transparent !important;
+  /* color: inherit !important;
+  background-color: transparent !important; */
 }
 .u-button-style.u-border-none,
 .u-button-style.u-border-hover-none:hover,
@@ -38843,7 +38843,7 @@ li.active > a.u-button-style.u-text-black,
 li.active > a.u-button-style.u-text-black[class*="u-border-"],
 a.u-button-style.u-text-black,
 a.u-button-style.u-text-black[class*="u-border-"] {
-  color: #000000 !important;
+  /* color: #000000 !important; */
 }
 a.u-button-style.u-text-black:hover,
 a.u-button-style.u-text-black[class*="u-border-"]:hover,

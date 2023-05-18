@@ -53,7 +53,7 @@ if (isset($_GET['logout'])) {
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-white u-header" id="sec-0b3e"><div class="u-clearfix u-sheet u-sheet-1">
-    <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="991" data-image-height="993">
+    <a href="Home.php" class="u-image u-logo u-image-1" data-image-width="991" data-image-height="993">
       <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
     </a>
     <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
@@ -106,21 +106,21 @@ if (isset($_GET['logout'])) {
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-1">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-1" src="images/hatchback.jpeg" alt="" data-image-width="370" data-image-height="136">
                   <h5 class="u-text u-text-2">HATCHBACK</h5>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-1 u-border-black u-btn u-btn-rectangle u-button-style u-radius-0 u-btn-1">Select</a>
+                  <a href="service_form.php" class="u-border-1 u-border-black u-btn u-btn-rectangle u-button-style u-radius-0 u-btn-1">Select</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-2">
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-valign-bottom u-container-layout-2">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-2" src="images/seden1.jpeg" alt="" data-image-width="380" data-image-height="133">
                   <h2 class="u-align-center u-text u-text-3">SEDEN</h2>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-2 u-border-black u-btn u-button-style u-white u-btn-2">Select</a>
+                  <a href="service_form.php" class="u-border-2 u-border-black u-btn u-button-style u-white u-btn-2">Select</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-3">
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-3">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-3" src="images/af29b6cd92f4ed44394fc54720755382a3bf398fbc6b1dfb052a87c57871dc4994080442303cfcda7170ff9bb81dcb7725c70b7c95bdb2430daef6_1280.jpg" alt="" data-image-width="1280" data-image-height="853">
                   <h3 class="u-text u-text-4">SUV</h3>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-1 u-border-black u-btn u-button-style u-white u-btn-3">Select</a>
+                  <a href="service_form.php" class="u-border-1 u-border-black u-btn u-button-style u-white u-btn-3">Select</a>
                 </div>
               </div>
             </div>
@@ -133,21 +133,21 @@ if (isset($_GET['logout'])) {
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-container-layout-4">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-4" src="images/pickuptruck.jpeg" alt="" data-image-width="279" data-image-height="180">
                   <h5 class="u-text u-text-5">PICKUPTRUCK</h5>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-1 u-border-black u-btn u-btn-rectangle u-button-style u-radius-0 u-btn-4">Select</a>
+                  <a href="service_form.php" class="u-border-1 u-border-black u-btn u-btn-rectangle u-button-style u-radius-0 u-btn-4">Select</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-20 u-layout-cell-5">
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl u-container-layout-5">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-5" src="images/minivan.jpeg" alt="" data-image-width="275" data-image-height="183">
                   <h2 class="u-align-center u-text u-text-6">MINIVAN</h2>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-2 u-border-black u-btn u-button-style u-white u-btn-5">Select</a>
+                  <a href="service_form.php" class="u-border-2 u-border-black u-btn u-button-style u-white u-btn-5">Select</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-6">
                 <div class="u-border-1 u-border-grey-30 u-container-layout u-container-layout-6">
                   <img class="u-image u-image-contain u-image-round u-radius-10 u-image-6" src="images/crossover.jpeg" alt="" data-image-width="275" data-image-height="183">
                   <h3 class="u-text u-text-7">CROSSOVER</h3>
-                  <a href="hatchback_2b62cd2de9f474733fff02559fded3799f604dbee47d890186eb3967b4bac58c.html" class="u-border-1 u-border-black u-btn u-button-style u-white u-btn-6">Select</a>
+                  <a href="service_form.php" class="u-border-1 u-border-black u-btn u-button-style u-white u-btn-6">Select</a>
                 </div>
               </div>
             </div>
