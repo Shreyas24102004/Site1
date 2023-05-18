@@ -194,7 +194,7 @@ if (isset($_GET['logout'])) {
                     </div>All Basic Service...<br>
                   </li>
                 </ul>
-                <a style="border: 2px solid white; border-radius: 10px; box-shadow: 0px 0px 20px gray" class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-color u-text-hover-palette-2-base u-btn-2">&nbsp;Book Service
+                <a href="standardservice.php" style="border: 2px solid white; border-radius: 10px; box-shadow: 0px 0px 20px gray" class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-color u-text-hover-palette-2-base u-btn-2">&nbsp;Book Service
                 </a>
                 <img class="u-image u-image-round u-radius-10 u-image-2" src="images/service.jpeg" alt="" data-image-width="1600" data-image-height="900">
                 <h4 class="u-text u-text-3">Comprehensive Service</h4>
@@ -241,7 +241,7 @@ if (isset($_GET['logout'])) {
                     </div>All Standard Service..<br>
                   </li>
                 </ul>
-                <a style="border: 2px solid white; border-radius: 10px; box-shadow: 0px 0px 20px gray" class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-color u-text-hover-palette-2-base u-btn-2">&nbsp;Book Service
+                <a href="Comprehensive.php" style="border: 2px solid white; border-radius: 10px; box-shadow: 0px 0px 20px gray" class="u-active-none u-btn u-button-style u-hover-none u-none u-text-body-color u-text-hover-palette-2-base u-btn-2">&nbsp;Book Service
                 </a>  
               </div>
             </div>

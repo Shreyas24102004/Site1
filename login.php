@@ -103,7 +103,7 @@ mysqli_close($conn);
               </form>
             </div>
             <a href="Signup.php" class="u-border-active-palette-2-base u-border-hover-palette-2-base u-border-none u-btn u-button-style u-login-control u-login-create-account u-none u-text-palette-2-base u-btn-2">Don't have an account?</a>
-            <a href="Signup.html" class="u-border-active-palette-2-base u-border-hover-palette-2-base u-border-none u-btn u-button-style u-login-control u-login-create-account u-none u-text-palette-2-base u-btn-3">Forgot password?</a>
+            <a href="forgotpass.php" class="u-border-active-palette-2-base u-border-hover-palette-2-base u-border-none u-btn u-button-style u-login-control u-login-create-account u-none u-text-palette-2-base u-btn-3">Forgot password?</a>
           </div>
         </div>
       </div>
